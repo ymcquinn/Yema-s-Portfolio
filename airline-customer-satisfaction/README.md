@@ -64,9 +64,9 @@ See full report for complete list of academic sources.
 
 ---
 ## 📄 Report
-[Download Full Analysis Report (PDF)](airline_business_report.pdf) - Includes methodology, findings, and visualizations.
-
+[Full Business Report (PDF)](airline_business_report.pdf) - Methodology, findings, and recommendations
 ## 💻 Code
-[Download Python Code (PDF)](airline_business_report_code.pdf) - Includes visualizations.
+[Technical Notebook (PDF)](airline_business_report_code.pdf) - Python code, visualizations, and model outputs
 
+---
 *Note: This project uses a dataset provided for academic purposes. Analysis and recommendations are original.*
