@@ -16,7 +16,7 @@ Data analyst bridging scientific rigor and community impact 🧬📊 9+ years tr
 Built classification model with 94% accuracy to predict flight recommendations using logistic regression. Used K-means clustering to identify 3 distinct customer segments. Key insight: verified review status significantly impacts perceived reliability. [View Project](/airline-customer-satisfaction/)
 
 ### 📊 HR Analytics Case Studies *(Coming Soon)*
-Workforce planning analytics and recommendations from 5+ years as HR consultant and Regional Manager. Includes turnover analysis, hiring forecasts, and diversity metrics.
+Workforce planning analytics and recommendations from 9 years as HR consultant and Regional Manager. Includes turnover analysis, hiring forecasts, and diversity metrics.
 
 ### 🏢 Workforce Planning Simulation *(Coming Soon)*
 Synthetic HR dataset demonstrating headcount forecasting, skills gap analysis, and retention modeling for a fictional 500-employee company.
@@ -28,4 +28,4 @@ Methodology and synthetic data examples from focus group research with Black Que
 Data collection templates and dashboards for tracking grant outcomes, budget vs. actual spend, and program participant impact.
 
 ## Let's Connect!
-[LinkedIn](your-linkedin-url) | [Email](your-email)
+[LinkedIn](linkedin.com/yema-quinn) | [Email](yemaquinn@gmail.com)
