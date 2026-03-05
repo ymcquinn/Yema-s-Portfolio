@@ -1,8 +1,8 @@
 # Yema's Data Analytics Portfolio 👋
-Data analytics portfolio showcasing machine learning, statistical analysis, and data visualization projects. Projects include HR analytics case studies, a workforce planning simulation, a business report for an airline, community-based research studies, and a grant impact measurement framework. Tools Incl: Python, SQL, scikit-learn, pandas.
+Data analytics portfolio showcasing machine learning, statistical analysis, and data visualization projects. Projects include HR analytics case studies, a workforce planning simulation, a business report for an airline, community-based research studies, and a grant impact measurement framework.
 
 ## About Me
-Data analyst bridging scientific rigor and community impact 🧬📊 9+ years translating complex data into actionable insights across HR, healthcare, and community-based research. B.Sc. Biopsychology (Queen's '16), Big Data Analytics Cert (York '24), Employment Relations Cert (Queen's '21).
+Data analyst bridging scientific rigor and community impact 🧬📊 9 years of translating complex data into actionable insights across HR, healthcare, and community-based research. B.Sc. Biopsychology (Queen's '16), Employment Relations Cert (Queen's '21), Big Data Analytics Cert (York '24).
 
 ## Skills & Tools
 - **Languages**: Python, SQL, MATLAB
