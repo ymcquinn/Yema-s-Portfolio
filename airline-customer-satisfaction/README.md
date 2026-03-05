@@ -63,5 +63,10 @@ This analysis enables airlines to move from "what do customers complain about?" 
 See full report for complete list of academic sources.
 
 ---
+## 📄 Report
+[Download Full Analysis Report (PDF)](airline_business_report.pdf) - Includes methodology, findings, and visualizations.
+
+## 💻 Code
+[Download Python Code (PDF)](airline_business_report_code.pdf) - Includes visualizations.
 
 *Note: This project uses a dataset provided for academic purposes. Analysis and recommendations are original.*
