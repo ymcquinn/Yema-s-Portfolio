@@ -154,17 +154,21 @@ The dataset intentionally includes realistic workforce dynamics:
 I weighted **FCR and CSAT highest** because they directly measure **client outcomes**. The other two measure **operational behaviors** that enable those outcomes.
 
 ### High Weight (30% each) - **The Customer Experience Drivers**
+
 **First Call Resolution Rate (30%)**
 - *Why*: Nothing frustrates clients more than being transferred or having to call back. Solving issues on the first call is the #1 driver of customer satisfaction in call centers.
 - *Business impact*: Higher FCR = lower call volume = lower operational costs
+
 **CSAT (30%)**
 - *Why*: It's the ultimate measure of whether clients feel helped. If they're not satisfied, nothing else matters.
 - *Business impact*: Directly ties to client retention and contract renewals
 
 ### Medium Weight (20% each) - **The Operational Excellence Drivers**
+
 **Schedule Adherence (20%)**
 - *Why*: An advisor can be amazing, but if they're not available when scheduled, clients wait longer and service suffers.
 - *Business impact*: Impacts service levels and team workload balance
+
 **Documentation Quality (20%)**
 - *Why*: Poor notes mean dropped details, repeated questions, and legal/compliance risks. Good documentation shows professionalism and protects the firm.
 - *Business impact*: Reduces errors, improves continuity of service, mitigates risk
@@ -178,6 +182,11 @@ I weighted **FCR and CSAT highest** because they directly measure **client outco
 | **Overtime Hours** | More about burnout risk than performance quality |
 | **Accounts Assigned** | Often based on tenure/role, not performance |
 
+Comparison: Yema's Index vs Company Tier
+------------------------------------------------
+- Rows where Yema says HIGH but company says MEDIUM = Underrated employees
+- Rows where Yema says MEDIUM but company says HIGH = Overrated employees
+- Agreement rate: ___%
 
 ## 🔒 Note
 *This project uses fully synthetic data generated for portfolio purposes. Any resemblance to real persons or organizations is coincidental.*
