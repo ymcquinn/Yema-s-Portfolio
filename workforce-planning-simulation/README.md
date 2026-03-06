@@ -95,15 +95,9 @@ The dataset intentionally includes realistic workforce dynamics:
 6. **Monthly Trends**: Seasonality patterns and forecasting
 
 ## 📈 Deliverables
-
 - **Interactive Excel Dashboard**: Pivot tables, slicers, conditional formatting, sparklines
 - **Performance Insights**: Top/bottom regions, advisors, and trends
 - **Actionable Recommendations**: Training priorities, coaching targets, resource allocation
-
-## 📁 Repository Structure| CSAT | ≥4.0/5 | Average customer satisfaction |
-| Schedule Adherence | ≥90% | (Time logged in / Scheduled time) × 100 |
-| Overtime % | ≤5% | (Overtime hours / Total hours) × 100 |
-| Shrinkage | ≤20% | (Non-call time / Total paid time) × 100 |
 
 ### 🧮 Calculated Metrics (To Be Created)
 - **Productivity Index**: Weighted combination of calls handled + FCR + CSAT
