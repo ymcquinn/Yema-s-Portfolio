@@ -2,26 +2,15 @@
 Using synthetic operational data to build an executive dashboard for a fictional company. This project comparees advisor performance against KPIs such as call metrics, regional performance, and resolution rates. Below is a comprehensive list of metrics.
 
 ## 📊 Dataset Snapshot
-
-| Attribute | Details |
-|-----------|---------|
-| **Employees** | 500 advisors |
-| **Regions** | West, Central, East, Atlantic |
-| **Provinces** | All 10 provinces |
-| **Teams** | Phone Support, In-Person Advisory |
-| **Date Range** | 2018-2024 |
-| **Status Distribution** | Active, Probation, Training |
-
-## 👤 Employee/Advisor Attributes:
-| Field | Example | Purpose |
+| Attribute | Example | Purpose |
 | ----------- | ----------- | ----------- |
-| Employee ID | EMP001-EMP500 | Unique identifier |
-| Advisor Name | Fake names | For leaderboards |
-| Region	West | West, Central, East, Atlantic | Regional breakdown |
-| Province | BC, AB, SK, etc. | Granular geography |
-| Team | Phone Support, In-Person Advisory | Granular geography |
-| Hire Date | 2019-03-15 | Tenure analysis |
-| Status | Active, Probation, Training | Workforce planning |
+| **Employee ID** | EMP001-EMP500 | Unique identifier |
+| **Advisor Name** | Fake names | For leaderboards |
+| **Region** | West, Central, East, Atlantic | Regional breakdown |
+| **Province** | All 10 provinces | Granular geography |
+| **Team** | Phone Support, In-Person Advisory | Granular geography |
+| **Hire Date Range** | 2019-03-15 | Tenure analysis |
+| **Status** | Active, Probation, Training | Workforce planning |
 
 ## 📞 Call/Service Metrics (Monthly):
 |Metric	| Example	| KPI Target
