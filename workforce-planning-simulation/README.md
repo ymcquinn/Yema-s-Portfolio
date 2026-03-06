@@ -9,7 +9,7 @@ Using synthetic operational data to build an executive dashboard for a fictional
 | **Regions** | West, Central, East, Atlantic |
 | **Provinces** | All 10 provinces |
 | **Teams** | Phone Support, In-Person Advisory |
-| **Date Range** | [Your hire date range] |
+| **Date Range** | 2018-2024 |
 | **Status Distribution** | Active, Probation, Training |
 
 ## 👤 Employee/Advisor Attributes:
