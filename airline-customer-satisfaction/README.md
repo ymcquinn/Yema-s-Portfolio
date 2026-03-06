@@ -50,7 +50,7 @@ This analysis enables airlines to move from "what do customers complain about?" 
 ### 🧰 Code & Tools
 - **Language**: Python
 - **Libraries**: pandas, scikit-learn, matplotlib, seaborn
-- **Notebook**: [`airline_analysis.ipynb`](airline_analysis.ipynb)
+- **Notebook**: [`airline_business_report.ipynb`](airline_analysis.ipynb)
 
 ### 📊 Visualizations
 *(Add screenshots of your figures here once you upload them!)*
