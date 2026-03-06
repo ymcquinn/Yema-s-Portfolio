@@ -110,6 +110,7 @@ The dataset intentionally includes realistic workforce dynamics:
 - **Quality Score**: Average of documentation quality + CSAT + FCR
 - **Tenure**: Years since hire date
 - **Performance Tier**: High/Medium/Low based on composite score
+- **Composite Score**: Weighted combination of FCR + CSAT + Schedule Adherence + documentation quality 
 
 ## 🔍 Analysis Objectives
 
@@ -132,7 +133,7 @@ The dataset intentionally includes realistic workforce dynamics:
 - **Visualization**: Excel Charts, Conditional Formatting
 - **Documentation**: Markdown, GitHub
 
-## 📁 Repository Structureworkforce-planning-simulation/
+## 📁 Repository Structure workforce-planning-simulation/
 ├── README.md (this file)
 ├── data/
 │ └── workforce_data_12months.csv (6,000 rows)
@@ -142,6 +143,40 @@ The dataset intentionally includes realistic workforce dynamics:
 │ └── python_analysis.ipynb (optional)
 └── visuals/
 └── dashboard_screenshots/
+
+## Composite Score Explanation
+- first_call_resolution_rate (30%)
+- csat (30%) 
+- schedule_adherence (20%)
+- documentation_quality (20%)
+
+**Why These Metrics?**
+I weighted **FCR and CSAT highest** because they directly measure **client outcomes**. The other two measure **operational behaviors** that enable those outcomes.
+
+### High Weight (30% each) - **The Customer Experience Drivers**
+**First Call Resolution Rate (30%)**
+- *Why*: Nothing frustrates clients more than being transferred or having to call back. Solving issues on the first call is the #1 driver of customer satisfaction in call centers.
+- *Business impact*: Higher FCR = lower call volume = lower operational costs
+**CSAT (30%)**
+- *Why*: It's the ultimate measure of whether clients feel helped. If they're not satisfied, nothing else matters.
+- *Business impact*: Directly ties to client retention and contract renewals
+
+### Medium Weight (20% each) - **The Operational Excellence Drivers**
+**Schedule Adherence (20%)**
+- *Why*: An advisor can be amazing, but if they're not available when scheduled, clients wait longer and service suffers.
+- *Business impact*: Impacts service levels and team workload balance
+**Documentation Quality (20%)**
+- *Why*: Poor notes mean dropped details, repeated questions, and legal/compliance risks. Good documentation shows professionalism and protects the firm.
+- *Business impact*: Reduces errors, improves continuity of service, mitigates risk
+
+## What About Other Metrics I Didn't Include:
+| Metric | Why It's NOT in Composite |
+|--------|---------------------------|
+| **Calls Handled** | Volume ≠ Quality. Someone could take 200 calls but resolve nothing. |
+| **Avg Handle Time** | Faster isn't better if issues aren't resolved. Quality over speed. |
+| **Transfer Rate** | Already captured in FCR (low transfer = high FCR) |
+| **Overtime Hours** | More about burnout risk than performance quality |
+| **Accounts Assigned** | Often based on tenure/role, not performance |
 
 
 ## 🔒 Note
