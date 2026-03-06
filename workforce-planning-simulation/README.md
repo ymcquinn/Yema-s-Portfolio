@@ -9,6 +9,9 @@ The firm delivers services through two primary channels:
 - **Phone Support Advisors**: Handle on-demand client calls (higher volume, lower resolution rates)
 - **In-Person Advisors**: Conduct onsite client visits (lower volume, higher quality metrics)
 
+## 🌟 Notable Insight
+I developed my own performance composite score based on client-facing metrics (FCR, CSAT, adherence, documentation). When compared to this (fictional) company's official performance tiers, I found a [X]% disagreement rate, suggesting the current tiering system may not fully capture true performance drivers. This kind of validation helps organizations ensure they're recognizing and developing the right talent.
+
 ## 📊 Dataset: 12-Month Time Series
 
 | Dimension | Details |
