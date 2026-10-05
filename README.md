@@ -12,6 +12,9 @@ Data analyst bridging scientific rigor and community impact 🧬📊 9 years of 
 
 ## Featured Projects
 
+### Autonymous Liquid Transfer Agent - Deep Reinforcement Learning
+Built a MuJoCo-based Gymnasium environment and PPO training pipeline for a 2-DOF robotic manipulation task; designed dense reward shaping and curriculum learning across three difficulty phases.
+
 ### ✈️ Airline Customer Satisfaction Analysis
 Built classification model with 94% accuracy to predict flight recommendations using logistic regression. Used K-means clustering to identify 3 distinct customer segments. Key insight: verified review status significantly impacts perceived reliability. [View Project](/airline-customer-satisfaction/)
 
@@ -19,7 +22,7 @@ Built classification model with 94% accuracy to predict flight recommendations u
 Workforce planning analytics and recommendations from 9 years as HR consultant and Regional Manager. Includes turnover analysis, hiring forecasts, and diversity metrics.
 
 ### 🏢 Workforce Planning Simulation *(Coming Soon)*
-Synthetic HR dataset demonstrating headcount forecasting, skills gap analysis, and retention modeling for a fictional 500-employee company.
+Synthetic HR dataset demonstrating headcount forecasting, revenue gap analysis, and retention modeling for a fictional 500-employee company.
 
 ### 🌈 Community-Based Research Studies *(Coming Soon)*
 Methodology and synthetic data examples from focus group research with Black Queer youth employment initiatives and grant-funded program evaluations.
