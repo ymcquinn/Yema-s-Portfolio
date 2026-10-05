@@ -1,0 +1,46 @@
+# Autonomous Liquid Transfer Robot — Deep RL
+
+A reinforcement learning agent that learns to perform laboratory liquid 
+transfer tasks (beaker → petri dish) using a simulated robotic arm.
+
+## Overview
+
+Built for SCS 4106 (Deep Reinforcement Learning) at University of Toronto SCS.
+Part of the Autonomous Systems for Discovery certificate.
+
+## Problem
+
+Automating liquid handling is a foundational capability for self-driving 
+laboratories. The task requires sequential decision-making under continuous 
+control: navigate to source, aspirate, navigate to target, dispense — with 
+delayed reward only at successful completion.
+
+## Approach
+
+- **Simulator:** MuJoCo (chosen after diagnosing Isaac Lab hardware incompatibility)
+- **Environment:** Custom Gymnasium class wrapping a MuJoCo MJCF model
+- **Algorithm:** PPO (Stable-Baselines3)
+- **State:** 15-dimensional vector (end-effector position, container coords, 
+  joint angles/velocities, fluid levels)
+- **Action:** Continuous 2-DOF joint position targets
+- **Reward:** Dense, shaped — proximity + transfer + success − penalty
+
+## Curriculum
+
+1. Static baseline (fixed beaker and dish positions)
+2. Randomized target (dish position varies per episode)
+3. Environmental disturbance (action/sensor noise)
+
+## Stack
+
+Python · MuJoCo · Gymnasium · Stable-Baselines3 · PyTorch · NumPy
+
+## Status
+
+In progress. Environment built; PPO training underway.
+
+## Files
+
+- `liquid_transfer_env.py` — Gymnasium environment
+- `train_ppo.py` — PPO training script
+- `results/` — training curves and evaluation metrics
