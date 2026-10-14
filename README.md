@@ -36,8 +36,8 @@ Data analyst bridging scientific rigor and community impact 🧬📊 9 years of 
 
 ### Business & People Analytics
 
-- **✈️ Airline Customer Satisfaction Analysis**
-Built classification model with 94% accuracy to predict flight recommendations using logistic regression. Used K-means clustering to identify 3 distinct customer segments. Key insight: verified review status significantly impacts perceived reliability. [View Project](/airline-customer-satisfaction/)
+- **[Airline Customer Satisfaction Analysis](/airline-customer-satisfaction/)**
+Built classification model with 94% accuracy to predict flight recommendations using logistic regression. Used K-means clustering to identify 3 distinct customer segments. Key insight: verified review status significantly impacts perceived reliability.
 
 - **HR Analytics Case Study** *(Coming Soon)*
 Workforce planning analytics and recommendations from 9 years as HR consultant and Regional Manager. Includes turnover analysis, hiring forecasts, and diversity metrics.
