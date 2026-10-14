@@ -1,46 +1,38 @@
-# Autonomous Liquid Transfer Robot — Deep RL
+# Autonomous Liquid Transfer — Deep RL Environment
 
-A reinforcement learning agent that learns to perform laboratory liquid 
-transfer tasks (beaker → petri dish) using a simulated robotic arm.
+A MuJoCo-based reinforcement learning environment simulating a robotic pipette arm performing beaker-to-petri-dish liquid transfer.
 
-## Overview
+## Why this project
 
-Built for SCS 4106 (Deep Reinforcement Learning) at University of Toronto SCS.
-Part of the Autonomous Systems for Discovery certificate.
+Autonomous liquid handling is the throughput floor for self-driving labs — the minimum reliable capability a robot needs before it can be trusted with real experiments. This environment is the first step toward an SDL pipeline for optimizing *Cordyceps militaris* fermentation conditions to maximize cordycepin yield.
 
-## Problem
+## Environment
 
-Automating liquid handling is a foundational capability for self-driving 
-laboratories. The task requires sequential decision-making under continuous 
-control: navigate to source, aspirate, navigate to target, dispense — with 
-delayed reward only at successful completion.
+| Component | Specification |
+|---|---|
+| Simulator | MuJoCo |
+| Robot | 3-DOF arm + 9-DOF three-finger hand (12 actuators) |
+| Workspace | 1m × 1m table with randomized container positions |
+| Observation space | 70-dim vector — object-centric vision, proprioception, motor resistance, fluid state |
+| Action space | 12 continuous joint position targets |
+| Reward | Proximity + aspiration + dispensing + success + grasp-force penalty |
+| Curriculum | Static → randomized targets → disturbances |
 
-## Approach
+## Design decisions
 
-- **Simulator:** MuJoCo (chosen after diagnosing Isaac Lab hardware incompatibility)
-- **Environment:** Custom Gymnasium class wrapping a MuJoCo MJCF model
-- **Algorithm:** PPO (Stable-Baselines3)
-- **State:** 15-dimensional vector (end-effector position, container coords, 
-  joint angles/velocities, fluid levels)
-- **Action:** Continuous 2-DOF joint position targets
-- **Reward:** Dense, shaped — proximity + transfer + success − penalty
-
-## Curriculum
-
-1. Static baseline (fixed beaker and dish positions)
-2. Randomized target (dish position varies per episode)
-3. Environmental disturbance (action/sensor noise)
-
-## Stack
-
-Python · MuJoCo · Gymnasium · Stable-Baselines3 · PyTorch · NumPy
+- **Position actuators over torque** — initial torque control was numerically unstable (tiny finger joints → NaN within 2 timesteps). Switched to PD position control, matching Robosuite and MuJoCo Menagerie conventions.
+- **Object-centric observation over pixels** — faster training, standard for MuJoCo manipulation tasks, and matches the actual deployment target (fixed overhead camera in a lab).
+- **Abstracted fluid state** — the goal is training the agent, not simulating fluid mechanics. Volumes are tracked as scalar state, matching industry SDL platforms.
 
 ## Status
 
-In progress. Environment built; PPO training underway.
+- ✅ Environment implemented and verified
+- 🔄 PPO training (Stable-Baselines3)
+- ⏳ Evaluation metrics + curriculum validation
 
-## Files
+## Run
 
-- `liquid_transfer_env.py` — Gymnasium environment
-- `train_ppo.py` — PPO training script
-- `results/` — training curves and evaluation metrics
+```bash
+pip install mujoco gymnasium numpy
+mjpython advanced_transfer_env.py    # macOS
+python advanced_transfer_env.py      # Windows/Linux
