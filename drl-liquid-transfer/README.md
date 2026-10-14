@@ -37,3 +37,7 @@ pip install mujoco gymnasium numpy
 mjpython advanced_transfer_env.py    # macOS
 python advanced_transfer_env.py      # Windows/Linux
 
+```
+## Stack
+
+Python · MuJoCo · Gymnasium · NumPy
