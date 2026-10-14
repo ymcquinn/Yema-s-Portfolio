@@ -36,3 +36,4 @@ Autonomous liquid handling is the throughput floor for self-driving labs — the
 pip install mujoco gymnasium numpy
 mjpython advanced_transfer_env.py    # macOS
 python advanced_transfer_env.py      # Windows/Linux
+
