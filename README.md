@@ -12,22 +12,43 @@ Data analyst bridging scientific rigor and community impact 🧬📊 9 years of 
 
 ## Featured Projects
 
-### Autonymous Liquid Transfer Agent - Deep Reinforcement Learning
-Built a MuJoCo-based Gymnasium environment and PPO training pipeline for a 2-DOF robotic manipulation task; designed dense reward shaping and curriculum learning across three difficulty phases.
+### AI & Autonomous Systems
 
-### ✈️ Airline Customer Satisfaction Analysis
+- **[Autonomous Liquid Transfer — Deep RL Environment](./drl-liquid-transfer)**  
+  MuJoCo + Gymnasium environment: 3-DOF robotic arm with 9-DOF three-finger hand performing beaker-to-petri-dish liquid transfer. 70-dim state space, domain randomization, 3-phase curriculum. *(SCS 4106 Capstone, in progress)*
+
+- **[Wumpus World POMDP Analysis](./drl-wumpus-world)**  
+  Empirical analysis of percept aliasing in a partially observable RL environment. Proved the environment is non-Markovian over raw percepts; documented belief-state solution. *(SCS 4106 Assignment 1)*
+
+### Natural Language Processing
+
+- **[Movie Genre Classification from Plot Summaries](./nlp-movie-genre-classification)**  
+  Trained and evaluated classifiers on 34,770 movie plots (CMU corpus). LogReg achieved 0.498 macro F1, outperforming Naive Bayes. Extended with KMeans clustering and LDA topic modeling (pyLDAvis visualization). *(SCS 3666 Assignment 4)*
+
+- **[NLP Corpus Vectorization Pipeline](./nlp-corpus-vectorization)**  
+  Custom sklearn Transformer for normalizing a 3,134-document corpus. Trained Gensim TF-IDF and Doc2Vec embeddings; verified category clustering without supervision. *(SCS 3666 Assignment 3)*
+
+- **[BBC News Scraper & NLP Preprocessor](./nlp-bbc-scraper)**  
+  Web scraping pipeline that extracts clean article text from live HTML, then processes it through sentence tokenization, word tokenization, stopword filtering, and POS tagging. *(SCS 3666 Assignment 2)*
+
+- **[Lexicon-Based Sentiment Analysis](./nlp-sentiment-analysis)**  
+  Sentiment classifier using NLTK's Hu & Liu opinion lexicon. Full text preprocessing pipeline (tokenization, POS tagging, regex pattern matching) applied to NYTimes articles. Multi-format extraction from HTML, PDF, and plain text. *(SCS 3666 Assignment 1)*
+
+### Business & People Analytics
+
+- **✈️ Airline Customer Satisfaction Analysis**
 Built classification model with 94% accuracy to predict flight recommendations using logistic regression. Used K-means clustering to identify 3 distinct customer segments. Key insight: verified review status significantly impacts perceived reliability. [View Project](/airline-customer-satisfaction/)
 
-### 📊 HR Analytics Case Studies *(Coming Soon)*
+- **HR Analytics Case Study** *(Coming Soon)*
 Workforce planning analytics and recommendations from 9 years as HR consultant and Regional Manager. Includes turnover analysis, hiring forecasts, and diversity metrics.
 
-### 🏢 Workforce Planning Simulation *(Coming Soon)*
+- **Workforce Planning Simulation** *(Coming Soon)*
 Synthetic HR dataset demonstrating headcount forecasting, revenue gap analysis, and retention modeling for a fictional 500-employee company.
 
-### 🌈 Community-Based Research Studies *(Coming Soon)*
-Methodology and synthetic data examples from focus group research with Black Queer youth employment initiatives and grant-funded program evaluations.
+- **Community-Based Research Studies** *(Coming Soon)*
+Methodology and synthetic data examples from focus group research with employment initiatives.
 
-### 💰 Grant Impact Measurement Framework *(Coming Soon)*
+- **Grant Impact Measurement Framework** *(Coming Soon)*
 Data collection templates and dashboards for tracking grant outcomes, budget vs. actual spend, and program participant impact.
 
 ## Let's Connect!
